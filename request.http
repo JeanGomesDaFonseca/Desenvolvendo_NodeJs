@@ -2,8 +2,8 @@ POST http://localhost:4002/products
 content-type: application/json
 
 {
-    "name": "WarZone",
-    "price": 99
+    "name": "Valorant",
+    "price": 5
 }
 
 ###
@@ -15,13 +15,13 @@ GET http://localhost:4002/products/8c3fcf29-943d-4da5-b64e-1dc30a88f97e
 
 
 ###
-PUT http://localhost:4002/products/7840b6ef-6674-493f-a424-cdf9dad42c5c
+PUT http://localhost:4002/products/778b9774-7c61-4b7e-bba3-23a519c4df89
 content-type: application/json
 
 {
-    "name": "Rainbow Six",
-    "price": 6
+    "name": "Minecraft",
+    "price": 10
 }
 
 ###
-DELETE http://localhost:4002/products/3fb97bde-4608-42d0-b3b3-f5b8b6af9bb4
+DELETE http://localhost:4002/products/744b0ea0-9ab8-44eb-be34-7e62cbfd9881
